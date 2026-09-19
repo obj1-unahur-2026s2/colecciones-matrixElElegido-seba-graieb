@@ -36,7 +36,7 @@ object nave {
     }
 
     method estaEquilibrada() {
-        return self.pasajeroConMayorVitalidad().nivelDeVitalidad() <=  self.pasajeroConMenorVitalidad() * 2
+        return self.pasajeroConMayorVitalidad().nivelDeVitalidad() <=  self.pasajeroConMenorVitalidad().nivelDeVitalidad() * 2
     }
 
     method estaElElegido() {
